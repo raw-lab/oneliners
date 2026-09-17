@@ -1,5 +1,12 @@
 # Useful one-liners for computational biology
 
+## Find in a file
+
+### Find a string a many files
+```
+grep -Rni --include="*.py" --include="*.slurm" "phix" .
+```
+
 ## Format
 
 ### Convert vsi to png/jpg/tiff
